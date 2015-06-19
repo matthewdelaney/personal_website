@@ -1,0 +1,65 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <title>Matt's Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"></link>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!--     <link rel="stylesheet" type="text/css" href="css/topcoat/css/topcoat-mobile-light.min.css"/>
+ -->    <link rel="stylesheet" type="text/css" href="css/ng-mobile-menu.min.css"></link>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+
+  <div id="sp-nav">
+    <div class="mobile-menu-container">
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#/about" ng-click="$spMenu.toggle()">About</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#/skills" ng-click="$spMenu.toggle()">Skills</a></li>
+            <li class="mobile-menu-item"><a class="mobile-menu-link" href="#/portfolio" ng-click="$spMenu.toggle()">Software</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="sp-page">
+    <div class="section group logo_table">
+      <div class="logo_row">
+        <div class="col span_3_of_3 logo">
+          <a class="hamburger" href="" ng-click="$spMenu.toggle()">
+            <i class="fa fa-bars" style="color: blanchedalmond"></i>
+          </a>
+          MATTHEW DELANEY
+        </div>
+      </div>
+    </div>
+    <div class="section group menu" ng-controller="NavbarCtrl">
+      <div class="col span_1_of_3">
+        <a ng-class="{inactive: routeIs('/about')}" href="#/about">About me</a>
+        <span ng-class="{active: routeIs('/about')}">About me</span>
+      </div>
+      <div class="col span_1_of_3">
+        <a ng-class="{inactive: routeIs('/skills')}" href="#/skills">Skills</a>
+        <span ng-class="{active: routeIs('/skills')}">Skills</span>
+      </div>
+      <div class="col span_1_of_3">
+        <a ng-class="{inactive: routeIs('/portfolio')}" href="#/portfolio">Software</a>
+        <span ng-class="{active: routeIs('/portfolio')}">Portfolio</span>
+      </div>
+    </div>
+
+    <div ng-view>
+    </div>
+
+    <div class="footer">
+      <center><i class="fa fa-copyright"></i> Matthew Delaney 2015</center>
+    </div>
+  </div>
+
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/ng-mobile-menu.min.js"></script>
+    <script src="js/App.js"></script>
+    <script src="js/ContentCtrl.js"></script>
+    <script src="js/NavbarCtrl.js"></script>
+  </body>
+</html>
