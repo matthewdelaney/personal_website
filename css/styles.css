@@ -13,6 +13,10 @@ a.hamburger {
   display: none;
 }
 
+.alt_t {
+  color: #30E930;
+}
+
 .mobile-menu-container {
   display: none;
 }
@@ -36,7 +40,6 @@ div.panel a {
 div.menu a {
   background-color: #8B0606;
   color: blanchedalmond;
-  text-shadow: 2px 2px 1px lightcoral;
 }
 
 div.menu div {
@@ -44,15 +47,15 @@ div.menu div {
 }
 
 .menu span {
-  display: none;
+  display: none;  
 }
 
 .menu .active {
-  display: inline;
+  color: blancedalmond;
 }
 
 .menu .inactive {
-  display: none;
+  color: #8B0606;
 }
 
 canvas.hexcellent-demo {
@@ -67,7 +70,7 @@ canvas.hexcellent-demo {
 }
 
 body {
-  background-color: #B8860B;
+  background-color: #DE6416;
   margin: 8px 0px 0px 0px;
 }
 
@@ -102,7 +105,7 @@ body {
     background-color: #8B0606;
     border-radius: 10px;
     color: blanchedalmond;
-    text-shadow: 2px 2px 1px lightcoral;
+    text-shadow: 2px 2px 1px #F08080;
 }
 
 .logo_table {
@@ -136,7 +139,8 @@ body {
 
 .panel {
   background-color: #FAEBD7;
-  color: #A52A2A;
+/*  color: #A52A2A; */
+  color: #35075A;
   border-radius: 10px;
   padding: 5px;
   box-sizing: border-box;
@@ -215,6 +219,8 @@ body {
   }
   a.hamburger {
     display: inline;
+    text-shadow: none;
+    color: #30E930;
   }
   .mobile-menu-container {
     display: inline;
