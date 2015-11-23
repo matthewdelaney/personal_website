@@ -11,8 +11,8 @@ var app = angular.module('app', ['ngRoute', 'shoppinpal.mobile-menu']);
               controller: 'ContentCtrl',
               controllerAs: 'content'
             })
-            .when('/portfolio', {
-              templateUrl: 'views/portfolio.html',
+            .when('/software', {
+              templateUrl: 'views/software.html',
               controller: 'ContentCtrl',
               controllerAs: 'content'
             })
