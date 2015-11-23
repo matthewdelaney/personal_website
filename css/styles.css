@@ -37,25 +37,16 @@ div.panel a {
   color: black;
 }
 
-div.menu a {
-  background-color: #8B0606;
-  color: blanchedalmond;
-}
-
-div.menu div {
-  color: #8B0606;
-}
-
 .menu span {
   display: none;  
 }
 
 .menu .active {
-  color: blancedalmond;
+  color: #35075A;
 }
 
 .menu .inactive {
-  color: #8B0606;
+  color: BlanchedAlmond;
 }
 
 canvas.hexcellent-demo {
@@ -70,15 +61,15 @@ canvas.hexcellent-demo {
 }
 
 body {
-  background-color: #DE6416;
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/purty_wood.png");
   margin: 8px 0px 0px 0px;
 }
 
 /*  COLUMN SETUP  */
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
   text-align: center;
   font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
@@ -102,10 +93,8 @@ body {
     margin-right: auto;
 }
 .menu {
-    background-color: #8B0606;
     border-radius: 10px;
-    color: blanchedalmond;
-    text-shadow: 2px 2px 1px #F08080;
+    color: #FFFFFF;
 }
 
 .logo_table {
@@ -122,7 +111,6 @@ body {
   text-align: left;
   font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 50px;
-  background-color: #4B0082;
   color: #FAEBD7;
   line-height: 1.2;
   padding-top: 10px;
@@ -134,12 +122,11 @@ body {
 .logo_tail {
   float: none;
   display: table-cell;
-  background: linear-gradient(to right, #4B0082, rgba(255, 255, 255, 0));
+  /*background: linear-gradient(to right, #4B0082, rgba(255, 255, 255, 0));*/
 }
 
 .panel {
   background-color: #FAEBD7;
-/*  color: #A52A2A; */
   color: #35075A;
   border-radius: 10px;
   padding: 5px;
