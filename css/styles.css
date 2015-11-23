@@ -37,16 +37,21 @@ div.panel a {
   color: black;
 }
 
+.menu a {
+  color: BlanchedAlmond;
+}
+
 .menu span {
   display: none;  
 }
 
 .menu .active {
+  display: inline;
   color: #35075A;
 }
 
 .menu .inactive {
-  color: BlanchedAlmond;
+  display: none;
 }
 
 canvas.hexcellent-demo {
