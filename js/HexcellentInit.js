@@ -9,8 +9,8 @@ function findCell(e) {
 
   // Change the line-width so that if the user has clicked on a cell,
   // that cell will be re-drawn with a thicker outline.
-  context.fillStyle = '#faebd7';
-  context.strokeStyle = '#a52a2a';
+  context.fillStyle = '#35075A';
+  context.strokeStyle = '#35075A';
   context.lineWidth = 4;
 
   // Did the user click in a cell?
@@ -34,7 +34,7 @@ function findCell(e) {
   
   // Set the style properties.
   context.fillStyle   = '#faebd7';
-  context.strokeStyle = '#a52a2a';
+  context.strokeStyle = '#35075A';
   context.lineWidth   = 1;
   
   // Parameters to constructor are cell-size, grid-height, grid-width, grid-top, grid-left
