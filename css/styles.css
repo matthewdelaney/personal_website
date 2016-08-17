@@ -177,6 +177,7 @@ body {
 .about-me {
   margin-bottom: 50%;
   text-align: justify;
+  padding-top: 20px;
   padding-right: 100px;
   padding-left: 25px;
 }
