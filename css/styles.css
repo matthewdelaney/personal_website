@@ -26,6 +26,7 @@ li.mobile-menu-item {
   margin-top: 20px;
   border-bottom-style: solid;
   border-bottom-width: 2px;
+  color: #35075A;
 }
 
 a.mobile-menu-link {
@@ -38,19 +39,22 @@ div.panel a {
 }
 
 .menu a {
-  /*color: BlanchedAlmond;*/
-  color: #35075A;
+  color: #FAEBD7;
+  background-color: #35075A;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .menu span {
-  display: none;  
+  display: none;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .menu .active {
   display: inline;
   color: #35075A;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  background-color: #FAEBD7;
 }
 
 .menu .inactive {
@@ -100,9 +104,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 .menu {
-    border-radius: 10px;
-    color: #FFFFFF;
+  padding-top: 5px;
 }
 
 .logo_table {
