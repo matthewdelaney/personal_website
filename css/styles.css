@@ -178,7 +178,7 @@ body {
   padding-top: 50px;
 }
 
-.about-me {
+.left-panel {
   margin-bottom: 50%;
   text-align: justify;
   padding-top: 20px;
@@ -202,7 +202,7 @@ body {
   border-style: solid;
 }
 
-.info-icon
+.left-panel-icon
 {
   font-size: 50px;
   color: #392846;
