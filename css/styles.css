@@ -179,11 +179,15 @@ body {
 }
 
 .left-panel {
-  margin-bottom: 50%;
   text-align: justify;
   padding-top: 20px;
   padding-right: 100px;
   padding-left: 25px;
+}
+
+.about-me
+{
+  margin-bottom: 50%;
 }
 
 .contact
@@ -197,6 +201,11 @@ body {
   color: #392846;
 }
 
+.contact-github
+{
+  padding-right: 10px;
+}
+
 .link-image {
   border: 2px;
   border-style: solid;
@@ -206,6 +215,11 @@ body {
 {
   font-size: 50px;
   color: #392846;
+}
+
+.software-demo
+{
+  margin-left: 20%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -245,13 +259,17 @@ body {
   {
     display: none;
   }
-  .about-me
+  .left-panel
   {
     padding-right: 25px;
   }
   .contact
   {
     padding-left: 25px;
+  }
+  .software-demo
+  {
+    margin-left: 0;
   }
   .mobile-menu-container {
     display: inline;
