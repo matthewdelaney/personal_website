@@ -268,9 +268,9 @@ body {
   {
     padding-left: 25px;
   }
-  .software-demo
+  .software-demo, .hexcellent-demo
   {
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   .mobile-menu-container {
     display: inline;
